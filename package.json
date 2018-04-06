@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap4-card-tables",
+  "version": "1.0.0",
+  "description": "CSS for properly rendering tables inside of cards in Bootstrap 4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipnewcomer/bootstrap4-card-tables.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap4",
+    "bootstrap-4",
+    "card",
+    "table"
+  ],
+  "author": "Philip Newcomer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philipnewcomer/bootstrap4-card-tables/issues"
+  },
+  "homepage": "https://github.com/philipnewcomer/bootstrap4-card-tables#readme"
+}
