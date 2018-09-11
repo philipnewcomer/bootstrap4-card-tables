@@ -1,9 +1,12 @@
 .card {
 	> .table {
 		border-right: 0;
-		border-bottom: 0;
 		border-left: 0;
 		margin-bottom: 0;
+
+		&:last-child {
+			border-bottom: 0;
+		}
 
 		td:first-child,
 		th:first-child {
