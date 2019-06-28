@@ -12,8 +12,17 @@ npm install --save-dev bootstrap4-card-tables
 
 ## Usage
 
+Import the SASS source files into your app:
+
 ```scss
 @import "~bootstrap4-card-tables/src/bootstrap4-card-tables";
+```
+
+Compiled (and optionally, minified) CSS is provided in the `dist` directory:
+
+```
+https://unpkg.com/bootstrap4-card-tables@1.2.0/dist/bootstrap4-card-tables.css
+https://unpkg.com/bootstrap4-card-tables@1.2.0/dist/bootstrap4-card-tables.min.css
 ```
 
 ## Notes
