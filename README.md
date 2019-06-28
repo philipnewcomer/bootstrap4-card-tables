@@ -2,7 +2,7 @@
 
 *CSS for properly rendering tables inside of cards in Bootstrap 4*
 
-While Bootstrap 3 supported tables inside of panels, tables are not supported in cards (the replacement for panels) in Bootstrap 4. Although the resulting visual glitches can be fixed using several helper classes on the card component and the table itself, this is something that would be nice if it would just work. Thus, this package provides the needed styles to use tables inside of cards in Bootstrap 4 without any additional helper classes.
+While Bootstrap 3 supported tables inside of panels, tables are not supported in cards (the replacement for panels) in Bootstrap 4. Although the resulting visual glitches can be fixed using several helper classes on the card component and the table itself, this is something that would be nice if it would just work. Thus, this package provides the needed styles to use tables inside of cards in Bootstrap 4 without any additional helper classes. It also modifes the horizontal padding of table cells to match that of the card header, body, and footer.
 
 ## Installation
 
@@ -36,23 +36,17 @@ Given the markup below, this package fixes the visual glitches without requiring
 
 ### Before
 
-<img width="740" alt="before screenshot" src="https://user-images.githubusercontent.com/1446874/38529055-a4763f18-3c30-11e8-863f-e8e300a90fce.png">
+<img width="728" alt="before screenshot" src="https://user-images.githubusercontent.com/1446874/60402871-5fa18800-9b63-11e9-8ac8-05339a18d85a.png">
 
 ### After
 
-<img width="740" alt="after screenshot" src="https://user-images.githubusercontent.com/1446874/38529061-a9dcd71e-3c30-11e8-8b5b-c3020a7dff3c.png">
+<img width="728" alt="after screenshot" src="https://user-images.githubusercontent.com/1446874/60402886-75af4880-9b63-11e9-89e6-1578b5f75731.png">
 
 ### HTML
 
 ```html
 <div class="card">
     <div class="card-header">Card Header</div>
-
-    <div class="card-body">
-        <p class="mb-0">
-            Credibly leverage other's team building action items with extensive methodologies. Enthusiastically conceptualize competitive e-services without mission-critical relationships. Dramatically reinvent quality interfaces after inexpensive convergence. Objectively incentivize an expanded array of metrics vis-a-vis timely materials. Energistically evisculate timely data through standardized ideas.
-        </p>
-    </div>
 
     <table class="table table-bordered">
         <thead>
